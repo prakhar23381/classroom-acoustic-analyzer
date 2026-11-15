@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated (rebuild with make_synthetic.py / analyze.py / deck/build_deck.py)
+validation/synth_*/
+validation/results_*/
+deck/assets/
+deck/*.pptx
+
+# Raw audio recordings live in the shared Drive folder, not in git
+recordings/
+*.m4a
+*.wav
+*.mp3
+
+# macOS
+.DS_Store
